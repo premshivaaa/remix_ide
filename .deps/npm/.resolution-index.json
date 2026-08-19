@@ -1,0 +1,10 @@
+{
+  "Practice/lpu-smart_contract.sol": {
+    "__sources__": {
+      "Practice/lpu-smart_contract.sol": {
+        "content": "// SPDX-License-Identifier: MIT\r\npragma solidity ^0.8.13;\r\n\r\ncontract lpu_smart_contract{\r\n    string name = \"Hacker\";\r\n    int age = 20;\r\n    string stream = \"CSE\";\r\n    int fees = 86400;\r\n}",
+        "file": "Practice/lpu-smart_contract.sol"
+      }
+    }
+  }
+}

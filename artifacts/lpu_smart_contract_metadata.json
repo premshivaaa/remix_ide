@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.34+commit.80d5c536"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Practice/lpu-smart_contract.sol": "lpu_smart_contract"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Practice/lpu-smart_contract.sol": {
+			"keccak256": "0x0dbfc05b5518382e2827ae616339d3ea0caa73cb82d45e6a21124601b8f75db9",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7df2cc3f913bfa7c50280733d5d08b532876808dee8545011fcaad651751b6b0",
+				"dweb:/ipfs/Qmd2k2KXRpd6iAsxpwWe8pY4Q2z6XPoBhPX4Fmqacxq2Qh"
+			]
+		}
+	},
+	"version": 1
+}
