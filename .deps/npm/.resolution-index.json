@@ -6,5 +6,13 @@
         "file": "Practice/lpu-smart_contract.sol"
       }
     }
+  },
+  "Practice/using_functions.sol": {
+    "__sources__": {
+      "Practice/using_functions.sol": {
+        "content": "// SPDX-License-Identifier: MIT\r\npragma solidity ^0.8.13;\r\n\r\n// How to create functions and constructors. Return types, function calling etc.\r\ncontract Person{\r\n    string public name;\r\n    uint public age;\r\n\r\n    constructor ( string memory _name, uint _age) {\r\n        name = _name;\r\n        age = _age;\r\n    }\r\n\r\n    function changeName(string memory sname) public {\r\n        name = sname;\r\n    }\r\n\r\n    function changeAge(uint newAge) public {\r\n        age = newAge;\r\n    }\r\n\r\n    function getName()\r\n    public view \r\n    returns(string memory, uint){\r\n        return(name, age);\r\n    }\r\n}",
+        "file": "Practice/using_functions.sol"
+      }
+    }
   }
 }

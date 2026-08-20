@@ -33,11 +33,11 @@
 	},
 	"sources": {
 		"Practice/lpu-smart_contract.sol": {
-			"keccak256": "0x0dbfc05b5518382e2827ae616339d3ea0caa73cb82d45e6a21124601b8f75db9",
+			"keccak256": "0x1e0da3790b4b13a0e22f9d83f9970e69f2fbef60350e34436a79ea8aa5e30b4b",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://7df2cc3f913bfa7c50280733d5d08b532876808dee8545011fcaad651751b6b0",
-				"dweb:/ipfs/Qmd2k2KXRpd6iAsxpwWe8pY4Q2z6XPoBhPX4Fmqacxq2Qh"
+				"bzz-raw://3fa874c59b71a1b132d527faf6a67ac0e18df6516f245881ba97a5fe9d9cb123",
+				"dweb:/ipfs/QmPmG4vdpakTnWwrMm25xK3qZoYjEuWdAxgKGZX5YRVdJy"
 			]
 		}
 	},
