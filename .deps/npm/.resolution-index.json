@@ -1,0 +1,26 @@
+{
+  "Practice/organization2.sol": {
+    "__sources__": {
+      "Practice/organization2.sol": {
+        "content": "// SPDX-License-Identifier: MIT\r\npragma solidity ^0.8.20;\r\n\r\ncontract org{\r\n    int age;\r\n    string name;\r\n    string adds;\r\n    int custId;\r\n    int contact;\r\n\r\n    constructor(int _age, string _name, string _adds, int _custId, int _contact){\r\n        age = _age;\r\n        name = _name;\r\n        adds = _adds;\r\n        custId = _custId;\r\n        contact = _contact;\r\n    }\r\n    function updateAge() public view(int _newage){\r\n        age = _newage;\r\n        \r\n    }\r\n\r\n    function getDetails() public view returns(int, string, string, int, int){\r\n        return (age, name, adds, custId, contact);\r\n    }\r\n\r\n}",
+        "file": "Practice/organization2.sol"
+      }
+    }
+  },
+  "Practice/organization.sol": {
+    "__sources__": {
+      "Practice/organization.sol": {
+        "content": "// SPDX-License-Identifier: MIT\r\npragma solidity ^0.8.20;\r\n\r\ncontract Organization {\r\n\r\n    string name;\r\n    uint customerId;\r\n    string contactNo;\r\n    string email;\r\n\r\n    // Constructor\r\n    constructor(\r\n        string memory _name,\r\n        uint _customerId,\r\n        string memory _contactNo,\r\n        string memory _email\r\n    ) {\r\n        name = _name;\r\n        customerId = _customerId;\r\n        contactNo = _contactNo;\r\n        email = _email;\r\n    }\r\n\r\n    // Update contact number\r\n    function updateContact(string memory _contactNo) public {\r\n        contactNo = _contactNo;\r\n    }\r\n\r\n    // Update email\r\n    function updateEmail(string memory _email) public {\r\n        email = _email;\r\n    }\r\n\r\n    // Print / display all data\r\n    function printData() public view returns (\r\n        string memory,\r\n        uint,\r\n        string memory,\r\n        string memory\r\n    ) {\r\n        return (name, customerId, contactNo, email);\r\n    }\r\n}",
+        "file": "Practice/organization.sol"
+      }
+    }
+  },
+  "Practice/org.sol": {
+    "__sources__": {
+      "Practice/org.sol": {
+        "content": "// SPDX-License-Identifier: MIT\r\npragma solidity ^0.8.20;\r\n\r\ncontract org {\r\n    int age;\r\n    string name;\r\n    string adds;\r\n    int custId;\r\n    int contact;\r\n\r\n    constructor(\r\n        int _age,\r\n        string memory _name,\r\n        string memory _adds,\r\n        int _custId,\r\n        int _contact\r\n    ) {\r\n        age = _age;\r\n        name = _name;\r\n        adds = _adds;\r\n        custId = _custId;\r\n        contact = _contact;\r\n    }\r\n\r\n    function updateAge(int _newage) public returns(int) {\r\n        age = _newage;\r\n        return age;\r\n    }\r\n\r\n    function getDetails() public view returns(\r\n        int,\r\n        string memory,\r\n        string memory,\r\n        int,\r\n        int\r\n    ) {\r\n        return (age, name, adds, custId, contact);\r\n    }\r\n}",
+        "file": "Practice/org.sol"
+      }
+    }
+  }
+}
